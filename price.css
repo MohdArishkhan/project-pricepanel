@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* My code  */
+
+body{
+    background-color: rgb(82, 139, 224);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.pricing-features{
+    display: flex;
+    align-items: center;
+}
+.panel{   
+    background-color: rgb(241, 237, 237);
+    border-radius:20px;
+    padding:15px 25px;
+    width:80%;
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+/*
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    */
+
+}
+.panel1{
+    border-bottom: 1px solid #e1f1ff;
+    text-align: center;
+
+}
+.signup3:last-child {
+    border-bottom:none;
+}
+.image{
+    margin-bottom: 20px;
+    max-width:70%
+    
+}
+.pricing-features{
+    margin:50px 0 25px;
+}
+.header{
+    font-weight: bold;
+    color: #888;
+    font-weight:600px ;
+    letter-spacing:1px ;
+}
+.listiteams{
+    font-weight: bold;
+    font-weight:600px ;
+    letter-spacing:1px ;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0 ;
+    border-top: 1px solid  #e1f1ff;
+}
+.listiteams :last-child{
+    border-bottom: 1px solid  #e1f1ff;
+}
+.price{
+    color: #016ff9;
+    display: block;
+    font-weight: 32px;
+    font-weight: 700px;
+}
+.signup{
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    color: #348efe;
+    display:inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin:25px 0;
+    transition : background-color 200ms ease-in-out;
+    
+}
+.signup:hover,.signup:focus{
+ background-color: rgb(255, 248, 248);
+
+}
+@media(min-width:900px){
+    .panel1{
+      flex-direction : row;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+}
+
+.signup:hover {
+    background-color: rgb(8, 140, 248);
+    color: rgb(236, 234, 234);
+  }
